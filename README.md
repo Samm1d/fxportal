@@ -15,8 +15,8 @@ To successfully complete the Final Challenge, your project should include the fo
 2. **Store Items on IPFS Using Pinata.cloud:**
    - Upload the generated items to IPFS using Pinata.cloud to get their IPFS hashes.
 
-3. **Deploy an ERC721 or ERC1155 to the Goerli Ethereum Testnet:**
-   - Implement and deploy an ERC721 or ERC1155 smart contract to the Goerli Ethereum Testnet.
+3. **Deploy an ERC721 or ERC1155 to the sepolia Ethereum Testnet:**
+   - Implement and deploy an ERC721 or ERC1155 smart contract to the sepolia Ethereum Testnet.
 
 4. **Implement promptDescription Function:**
    - Add a `promptDescription` function to the smart contract that returns the prompt used to generate each image.
@@ -27,8 +27,8 @@ To successfully complete the Final Challenge, your project should include the fo
 6. **Write a Hardhat Script to Batch Mint All NFTs:**
    - Use Hardhat to write a script that batch mints all the NFTs. The ERC721A standard is recommended for optimal batch minting.
 
-7. **Write a Hardhat Script to Batch Transfer All NFTs from Ethereum to Polygon Mumbai Using the FxPortal Bridge:**
-   - Create a Hardhat script to facilitate the batch transfer of all NFTs from the Ethereum network to the Polygon Mumbai network using the FxPortal Bridge.
+7. **Write a Hardhat Script to Batch Transfer All NFTs from Ethereum to Polygon amoy Using the FxPortal Bridge:**
+   - Create a Hardhat script to facilitate the batch transfer of all NFTs from the Ethereum network to the Polygon amoy network using the FxPortal Bridge.
 
 8. **Approve the NFTs to be Transferred:**
    - Ensure that the NFTs are approved for transfer to the bridge contract.
@@ -49,8 +49,8 @@ Upload each generated image to IPFS using Pinata.cloud and note down the IPFS ha
   - Write a smart contract for your NFT collection.
   - Ensure the contract includes a `promptDescription` function that returns the image generation prompt.
 
-- **Deploy to Goerli Testnet:**
-  - Use Hardhat to compile and deploy your contract to the Goerli Ethereum Testnet.
+- **Deploy to sepolia Testnet:**
+  - Use Hardhat to compile and deploy your contract to the sepolia Ethereum Testnet.
 
 ### 4. Map NFTs on Polygon (Optional)
 If you choose to, map your NFT collection using Polygon's token mapper tool for enhanced visualization.
@@ -63,7 +63,7 @@ Create a Hardhat script to batch mint your NFTs using ERC721A for efficiency.
   - Write a script to approve the NFTs for transfer.
 
 - **Batch Transfer Using FxPortal Bridge:**
-  - Create a Hardhat script to batch transfer the NFTs from Ethereum to Polygon Mumbai using the FxPortal Bridge.
+  - Create a Hardhat script to batch transfer the NFTs from Ethereum to Polygon amoy using the FxPortal Bridge.
 
 - **Deposit NFTs:**
   - Deposit the NFTs into the bridge contract to finalize the transfer.
